@@ -49,4 +49,4 @@ jobs:
           #默认为https，可以设置为ssh或者https。当设置为ssh时，你需要将dst_key所对应的公钥同时配置到源端和目的端
           force_update: true
           #配置cache
-          cache_path: /github/workspace/hub-mirror-cache
+          cache_path: /github/workspace/open-books-collection
