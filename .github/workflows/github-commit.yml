@@ -20,5 +20,6 @@ jobs:
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
           echo "abcd" >> README.md
+          git add .
           git commit --allow-empty -m "one day a commit "
           git push
